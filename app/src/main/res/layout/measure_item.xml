@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:id="@+id/cardView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp"
+    app:cardElevation="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:id="@+id/content_Date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/his_item_dateText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+
+                />
+
+            <TextView
+                android:id="@+id/his_item_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="11-04-18"
+                android:textSize="13sp"
+                android:layout_marginTop="1dp"
+                />
+
+
+            <TextView
+                android:id="@+id/his_item_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="12:00 PM"
+                android:layout_marginTop="1dp"
+                android:textSize="12sp"
+                android:layout_marginBottom="5dp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/content_sys"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:orientation="vertical"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:id="@+id/his_item_timeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sys.."
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/his_item_sys"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/gree"
+                android:layout_gravity="center"
+                android:layout_marginTop="1dp"
+                android:textSize="16sp"
+                tools:text="80"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="14sp"
+                android:text="mmHg"
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/content_dia"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:orientation="vertical"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dia.."
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/his_item_dia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/green"
+                android:layout_gravity="center"
+                android:layout_marginTop="1dp"
+                android:textSize="16sp"
+                android:text="80"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="14sp"
+                android:text="mmHg"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/content_BP"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/his_item_sys_l"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pul.."
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/his_item_pulse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/red"
+                android:layout_gravity="center"
+                android:layout_marginTop="1dp"
+                android:textSize="16sp"
+                tools:text="80"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="1dp"
+                android:textSize="14sp"
+                android:text="BPM"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
