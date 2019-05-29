@@ -94,10 +94,10 @@ public class newMeasure extends AppCompatActivity {
         initGreenDao();
 
         MobileAds.initialize(this,
-                "ca-app-pub-7015642679712581~7078103301");
+                getString(R.string.appUnitId));
 
         mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId("ca-app-pub-7015642679712581/2775185776");
+        mInterstitialAd.setAdUnitId( getString(R.string.tere_ID));
         mInterstitialAd.loadAd(new AdRequest.Builder().build());
 
         if (mInterstitialAd.isLoaded()) {

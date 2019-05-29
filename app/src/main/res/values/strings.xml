@@ -9,9 +9,9 @@
     <string name="dialog_action_yes">Yes</string>
     <string name="dialog_action_no">No</string>
 
-ca-app-pub-7015642679712581/8914052861 - bANNER
+    <string name="appUnitId">ca-app-pub-7015642679712581~7078103301</string>
+    <string name="bannerID">ca-app-pub-7015642679712581/8914052861</string>
+    <string name="tere_ID">ca-app-pub-7015642679712581/2775185776</string>
 
-ca-app-pub-7015642679712581/2775185776 -T
 
-ca-app-pub-7015642679712581~7078103301
 </resources>
